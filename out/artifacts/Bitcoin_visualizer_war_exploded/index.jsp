@@ -12,11 +12,8 @@
   <body>
   hello imane
   <h1>
-    json:
-    <% String name = request.getParameter("test");
-      JSONObject jsonObject = readJSONFromUrl("https://api.coindesk.com/v1/bpi/currentprice.json");
-      String test = jsonObject.toString();%>
-      <%out.println(jsonObject.toString());%>
+    hi
+
   </h1>
   </body>
 </html>

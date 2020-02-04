@@ -29,5 +29,11 @@
     <orderEntry type="library" scope="PROVIDED" name="Tomcat 8.5.50" level="application_server_libraries" />
     <orderEntry type="library" name="Maven: org.json:json:20160810" level="project" />
     <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.8.6" level="project" />
+    <orderEntry type="library" name="Maven: com.google.visualization:visualization-datasource:1.1.1" level="project" />
+    <orderEntry type="library" name="Maven: commons-lang:commons-lang:2.4" level="project" />
+    <orderEntry type="library" name="Maven: commons-logging:commons-logging:1.1.1" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:guava:r07" level="project" />
+    <orderEntry type="library" name="Maven: com.ibm.icu:icu4j:4.0.1" level="project" />
+    <orderEntry type="library" name="Maven: net.sf.opencsv:opencsv:1.8" level="project" />
   </component>
 </module>
