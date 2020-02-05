@@ -4,6 +4,7 @@ Hielo by TEMPLATED
 templated.co @templatedco
 Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
+<!--
 <html>
 <head>
     <title>Hielo by TEMPLATED</title>
@@ -13,13 +14,12 @@ Released for free under the Creative Commons Attribution 3.0 license (templated.
 </head>
 <body>
 
-<!-- Header -->
+<! Header --
 <header id="header" class="alt">
     <div class="logo"><a href="index.html">Hielo <span>by TEMPLATED</span></a></div>
     <a href="#menu">Menu</a>
 </header>
-
-<!-- Nav -->
+-- Nav --
 <nav id="menu">
     <ul class="links">
         <li><a href="index.html">Home</a></li>
@@ -28,7 +28,7 @@ Released for free under the Creative Commons Attribution 3.0 license (templated.
     </ul>
 </nav>
 
-<!-- Banner -->
+-- Banner --
 <section class="banner full">
     <article>
         <img src="images/slide01.jpg" alt="" />
@@ -77,7 +77,7 @@ Released for free under the Creative Commons Attribution 3.0 license (templated.
     </article>
 </section>
 
-<!-- One -->
+-- One --
 <section id="one" class="wrapper style2">
     <div class="inner">
         <div class="grid-style">
@@ -122,7 +122,7 @@ Released for free under the Creative Commons Attribution 3.0 license (templated.
     </div>
 </section>
 
-<!-- Two -->
+-- Two --
 <section id="two" class="wrapper style3">
     <div class="inner">
         <header class="align-center">
@@ -131,8 +131,7 @@ Released for free under the Creative Commons Attribution 3.0 license (templated.
         </header>
     </div>
 </section>
-
-<!-- Three -->
+-- Three -->
 <section id="three" class="wrapper style2">
     <div class="inner">
         <header class="align-center">
@@ -165,7 +164,7 @@ Released for free under the Creative Commons Attribution 3.0 license (templated.
 </section>
 
 
-<!-- Footer -->
+- Footer
 <footer id="footer">
     <div class="container">
         <ul class="icons">
@@ -180,7 +179,7 @@ Released for free under the Creative Commons Attribution 3.0 license (templated.
     </div>
 </footer>
 
-<!-- Scripts -->
+-- Scripts --
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/jquery.scrollex.min.js"></script>
 <script src="assets/js/skel.min.js"></script>
@@ -188,4 +187,4 @@ Released for free under the Creative Commons Attribution 3.0 license (templated.
 <script src="assets/js/main.js"></script>
 
 </body>
-</html>
+</html> -->
