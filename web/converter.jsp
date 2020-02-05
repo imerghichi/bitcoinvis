@@ -31,7 +31,7 @@
         <div class="grid-style">
             <div>
                 <h2 class="title">Bitcoin Converter</h2>
-                <form method="POST">
+                <form action="ConverterServlet" method="POST">
                     <div class="input-group">
                         <input class="input--style-1" type="number" placeholder="VALUE" name="value">
                     </div>

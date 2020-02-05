@@ -9,17 +9,21 @@ import java.util.List;
 
 public class BitcoinConverter {
     private  String url;
+    private String currency;
+    private  int value;
 
-    public BitcoinConverter() {
+    public BitcoinConverter(String currency, int value) {
         this.url = "https://blockchain.info/";
+        this.currency = currency;
+        this.value = value;
     }
 
     public  String getUrl() {
         return url;
     }
 
-    public  String convert (String currency, int value) throws IOException {
-        String url = "https://blockchain.info/tobtc?currency="+currency+"&value="+value;
+    public  String convert () throws IOException {
+        String url = "https://blockchain.info/tobtc?currency="+this.currency+"&value="+this.value;
         URL url1 = new URL(url);
         BufferedReader br = new BufferedReader(new InputStreamReader(url1.openStream()));
         StringBuilder stringBuilder = new StringBuilder();

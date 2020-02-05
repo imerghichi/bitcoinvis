@@ -16,4 +16,13 @@
         <url-pattern>/</url-pattern>
     </servlet-mapping>
     -->
+    <servlet>
+        <servlet-name>ConverterServlet</servlet-name>
+        <servlet-class>Controllers.ConverterServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ConverterServlet</servlet-name>
+        <url-pattern>/converter</url-pattern>
+    </servlet-mapping>
 </web-app>
