@@ -2,12 +2,12 @@ package Model;
 
 import java.io.IOException;
 
-public class test {
+public class test {/*
     public static void main(String[] args) throws IOException {
         BitcoinConverter bitcoinConverter = new BitcoinConverter();
-        String str=bitcoinConverter.convert("USD",500);
+        String str = bitcoinConverter.convert("USD", 500);
 
-        System.out.println(str);
+      System.out.println(str);
         BitcoinAdressData bitcoinAdressData = new BitcoinAdressData("1AJbsFZ64EpEfS5UAjAfcUG8pH8Jn3rn1F");
 
         String strr = bitcoinAdressData.getHash();
@@ -20,5 +20,6 @@ public class test {
 
 
 
+    }*/
     }
-}
+
