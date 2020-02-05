@@ -1,5 +1,4 @@
 
-<!-- end document-->
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -34,29 +33,47 @@
                 <h2 class="title">Bitcoin Converter</h2>
                 <form method="POST">
                     <div class="input-group">
-                        <input class="input--style-1" type="text" placeholder="VALUE" name="value">
+                        <input class="input--style-1" type="number" placeholder="VALUE" name="value">
                     </div>
+                    <br>
                         <div class="col-2">
                             <div class="input-group">
                                 <div class="rs-select2 js-select-simple select--no-search">
                                     <select name="currency">
                                         <option disabled="disabled" selected="selected">Currency</option>
                                         <option>USD</option>
-                                        <option>BLa</option>
-                                        <option>Other</option>
+                                        <option>JPY</option>
+                                        <option>SGD</option>
+                                        <option>HKD</option>
+                                        <option>CAD</option>
+                                        <option>NZD</option>
+                                        <option>AUD</option>
+                                        <option>CLP</option>
+                                        <option>GBP</option>
+                                        <option>DKK</option>
+                                        <option>SEK</option>
+                                        <option>ISK</option>
+                                        <option>CHF</option>
+                                        <option>BRL</option>
+                                        <option>EUR</option>
+                                        <option>RUB</option>
+                                        <option>PLN</option>
+                                        <option>THB</option>
+                                        <option>KRW</option>
+                                        <option>TWD</option>
                                     </select>
                                     <div class="select-dropdown"></div>
                                 </div>
                             </div>
                         </div>
+                    <br>
                     <div class="p-t-20">
-                        <button class="btn btn--radius btn--green" type="submit">Submit</button>
-                    </div>
+                        <button class="btn btn--radius btn--green" type="submit">Convert</button>
+                    </div><br><br>
                 </form>
             </div>
         </div>
     </div>
-
 <!-- Footer -->
 <footer id="footer">
     <div class="container">
@@ -77,6 +94,6 @@
 <script src="ressource/assets/js/skel.min.js"></script>
 <script src="ressource/assets/js/util.js"></script>
 <script src="ressource/assets/js/main.js"></script>
+</section>
 
-</body>
 </html>
