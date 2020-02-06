@@ -7,6 +7,7 @@
         <welcome-file>home.jsp</welcome-file>
         <welcome-file>converter.jsp</welcome-file>
         <welcome-file>adressdata.jsp</welcome-file>
+        <welcome-file>stats.jsp</welcome-file>
     </welcome-file-list>
 
     <servlet>
@@ -32,5 +33,14 @@
     <servlet-mapping>
         <servlet-name>BitcoinAdressDataServlet</servlet-name>
         <url-pattern>/adressdata</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>BitcoinStatsServlet</servlet-name>
+        <servlet-class>Controllers.BitcoinStatsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BitcoinStatsServlet</servlet-name>
+        <url-pattern>/stats</url-pattern>
     </servlet-mapping>
 </web-app>

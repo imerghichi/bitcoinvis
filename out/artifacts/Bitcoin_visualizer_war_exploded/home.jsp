@@ -20,7 +20,7 @@
         <li><a href="home.jsp">Home</a></li>
         <li><a href="converter.jsp">Converter</a></li>
         <li><a href="last.jsp">last 24hours</a></li>
-        <li><a href="Data.jsp">Get data for any Adress</a></li>
+        <li><a href="adressdata.jsp">Get data for any Adress</a></li>
         <li><a href="aboutus.html">About Us</a></li>
 
     </ul>
@@ -91,7 +91,7 @@
                         </header>
                         <p>Get informations about a given adress</p>
                         <footer class="align-center">
-                            <a href="#" class="button alt">Learn More</a>
+                            <a href="adressdata.jsp" class="button alt">Learn More</a>
                         </footer>
                     </div>
                 </div>
