@@ -4,34 +4,15 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
     <welcome-file-list>
-        <welcome-file>ressource/home.jsp</welcome-file>
+        <welcome-file>home.jsp</welcome-file>
     </welcome-file-list>
-    <!--
+
     <servlet>
-        <servlet-name>BitcoinServlet</servlet-name>
-        <servlet-class>Controllers.BitcoinServlet</servlet-class>
+        <servlet-name>Home</servlet-name>
+        <servlet-class>Controllers.Home</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>BitcoinServlet</servlet-name>
+        <servlet-name>Home</servlet-name>
         <url-pattern>/</url-pattern>
-    </servlet-mapping>
-
-    <servlet>
-        <servlet-name>ConverterServlet</servlet-name>
-        <servlet-class>Controllers.ConverterServlet</servlet-class>
-    </servlet>
-
-    <servlet-mapping>
-        <servlet-name>ConverterServlet</servlet-name>
-        <url-pattern>/converter</url-pattern>
-    </servlet-mapping>
--->
-    <servlet>
-        <servlet-name>BitcoinStatsServlet</servlet-name>
-        <servlet-class>Controllers.BitcoinStatsServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>BitcoinStatsServlet</servlet-name>
-        <url-pattern>/stats</url-pattern>
     </servlet-mapping>
 </web-app>

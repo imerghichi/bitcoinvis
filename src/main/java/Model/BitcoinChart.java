@@ -25,5 +25,4 @@ public class BitcoinChart {
         JSONObject jsonObject =new JSONObject(this.getData());
         return jsonObject;
     }
-
 }
