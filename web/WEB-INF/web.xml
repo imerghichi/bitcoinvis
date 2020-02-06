@@ -15,7 +15,7 @@
         <servlet-name>BitcoinServlet</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
-    -->
+
     <servlet>
         <servlet-name>ConverterServlet</servlet-name>
         <servlet-class>Controllers.ConverterServlet</servlet-class>
@@ -25,8 +25,13 @@
         <servlet-name>ConverterServlet</servlet-name>
         <url-pattern>/converter</url-pattern>
     </servlet-mapping>
+-->
+    <servlet>
+        <servlet-name>BitcoinStatsServlet</servlet-name>
+        <servlet-class>Controllers.BitcoinStatsServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
-        <servlet-name></servlet-name>
-        <url-pattern></url-pattern>
+        <servlet-name>BitcoinStatsServlet</servlet-name>
+        <url-pattern>/stats</url-pattern>
     </servlet-mapping>
 </web-app>

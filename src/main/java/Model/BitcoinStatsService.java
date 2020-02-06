@@ -14,8 +14,8 @@ public class BitcoinStatsService extends BitcoinStats {
         return  this.jsonObject.getLong("market_price_usd");
 
     }
-    public String gethashrate(){
-        return this.jsonObject.getString("hash_rate");
+    public long gethashrate(){
+        return this.jsonObject.getLong("hash_rate");
 
     }
     public long get_total_fees_btc(){

@@ -1,12 +1,12 @@
 package Model;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
-public class test {/*
-    public static void main(String[] args) throws IOException {
-        BitcoinConverter bitcoinConverter = new BitcoinConverter();
-        String str = bitcoinConverter.convert("USD", 500);
-
+public class test {
+    public static void main(String[] args)  {
+/*
       System.out.println(str);
         BitcoinAdressData bitcoinAdressData = new BitcoinAdressData("1AJbsFZ64EpEfS5UAjAfcUG8pH8Jn3rn1F");
 
@@ -20,6 +20,28 @@ public class test {/*
 
 
 
-    }*/
+        BitcoinStatsService bitcoinStatsService = null;
+        try {
+            bitcoinStatsService = new BitcoinStatsService();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        long out = bitcoinStatsService.gethashrate();
+    System.out.println(out);*/
+        try {
+            BitcoinChartService bitcoinChartService = new BitcoinChartService();
+            List<Integer> list = new ArrayList<Integer>();
+            list = bitcoinChartService.getx();
+            for (int x:
+                 list) {
+                System.out.println(x);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+
+    }
+
     }
 
