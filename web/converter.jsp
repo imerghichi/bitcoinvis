@@ -71,6 +71,10 @@
                         <button class="btn btn--radius btn--green" type="submit">Convert</button>
                     </div><br><br>
                 </form>
+                <div>
+                    <h3 class="title">Result</h3>
+                    <div> ${outputconverter}</div><br>
+                </div>
             </div>
         </div>
     </div>
