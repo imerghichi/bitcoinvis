@@ -34,7 +34,6 @@
                 <form action="${pageContext.request.contextPath}/converter" method="POST">
                     <div class="input-group">
                         <input class="input--style-1" type="number" placeholder="VALUE" name="value">
-
                     </div>
                     <br>
                         <div class="col-2">

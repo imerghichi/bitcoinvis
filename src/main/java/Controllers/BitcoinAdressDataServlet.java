@@ -1,5 +1,7 @@
 package Controllers;
 
+import Model.BitcoinAdressData;
+import Model.BitcoinAdressDatamin;
 import Model.BitcoinConverter;
 
 import javax.servlet.ServletException;
@@ -11,16 +13,18 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 @WebServlet
-public class ConverterServlet extends HttpServlet {
+public class BitcoinAdressDataServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         PrintWriter printWriter = resp.getWriter();
         resp.setContentType("text/html");
-        int value = Integer.parseInt(req.getParameter("value"));
-        String currency = req.getParameter("currency");
-        BitcoinConverter bitcoinConverter = new BitcoinConverter(currency,value);
-        printWriter.println(bitcoinConverter.convert());
+        String adress =req.getParameter("adress");
+        BitcoinAdressData bitcoinAdressDatamin = new BitcoinAdressData(adress);
+        printWriter.println("total sent"+bitcoinAdressDatamin.getTotalsent());
+        printWriter.println("total received"+bitcoinAdressDatamin.getTotalreceived());
+        printWriter.println("final balance"+bitcoinAdressDatamin.getFinal_balance());
+
         printWriter.close();
     }
 }
