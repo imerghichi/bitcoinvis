@@ -5,6 +5,7 @@
          version="4.0">
     <welcome-file-list>
         <welcome-file>home.jsp</welcome-file>
+        <welcome-file>converter.jsp</welcome-file>
     </welcome-file-list>
 
     <servlet>
@@ -14,5 +15,13 @@
     <servlet-mapping>
         <servlet-name>Home</servlet-name>
         <url-pattern>/</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Converter</servlet-name>
+        <servlet-class>Controllers.ConverterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Converter</servlet-name>
+        <url-pattern>/converter</url-pattern>
     </servlet-mapping>
 </web-app>

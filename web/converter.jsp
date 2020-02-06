@@ -31,9 +31,10 @@
         <div class="grid-style">
             <div>
                 <h2 class="title">Bitcoin Converter</h2>
-                <form action="ConverterServlet" method="POST">
+                <form action="${pageContext.request.contextPath}/converter" method="POST">
                     <div class="input-group">
                         <input class="input--style-1" type="number" placeholder="VALUE" name="value">
+
                     </div>
                     <br>
                         <div class="col-2">
@@ -73,7 +74,7 @@
                 </form>
                 <div>
                     <h3 class="title">Result</h3>
-                    <div> ${outputconverter}</div><br>
+                    <div> </div><br>
                 </div>
             </div>
         </div>
