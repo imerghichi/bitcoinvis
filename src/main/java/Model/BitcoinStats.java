@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.URL;
 
-public class BitcoinStats {
+public class BitcoinStats implements Model {
 
 
     public String getData() throws IOException {

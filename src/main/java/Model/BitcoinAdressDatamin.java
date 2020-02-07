@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.URL;
 
-public class BitcoinAdressDatamin {
+public class BitcoinAdressDatamin implements Model {
     private String dataAdress;
 
     public String getDataAdress() {

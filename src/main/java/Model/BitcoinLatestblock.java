@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.URL;
 
-public class BitcoinLatestblock {
+public class BitcoinLatestblock implements Model{
     public String getData() throws IOException {
         String url = "https://blockchain.info/latestblock";
         URL url1 = new URL(url);

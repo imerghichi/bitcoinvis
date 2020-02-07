@@ -8,7 +8,7 @@ import java.io.InputStreamReader;
 import java.net.URL;
 import java.util.List;
 
-public class BitcoinChart {
+public class BitcoinChart implements Model{
     public String getData() throws IOException {
         String url = "https://api.blockchain.info/charts/market-price?format=json";
         URL url1 = new URL(url);
