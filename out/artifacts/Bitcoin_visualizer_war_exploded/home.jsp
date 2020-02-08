@@ -19,8 +19,10 @@
     <ul class="links">
         <li><a href="home.jsp">Home</a></li>
         <li><a href="converter.jsp">Converter</a></li>
-        <li><a href="#">last 24hours</a></li>
+        <li><a href="Last24h.jsp">last 24hours</a></li>
         <li><a href="adressdata.jsp">Get data for any Adress</a></li>
+        <li><a href="bitcoinchart.jsp">Bitcoin price evolution</a> </li>
+        <li><a href="latestbock.jsp">Latest block information</a> </li>
         <li><a href="aboutus.html">About Us</a></li>
 
     </ul>
@@ -108,11 +110,44 @@
                         </header>
                         <p>Last 2hours Bitcoin related informations</p>
                         <footer class="align-center">
-                            <a href="#" class="button alt">Learn More</a>
+                            <a href="Last24h.jsp" class="button alt">Learn More</a>
                         </footer>
                     </div>
                 </div>
             </div>
+            <div>
+                <div class="box">
+                    <div class="image fit">
+                        <img src="ressource/images/pic03.jpg" alt="" />
+                    </div>
+                    <div class="content">
+                        <header class="align-center">
+                            <p>Bitcoin Visulizer</p>
+                            <h2>Data from Adress</h2>
+                        </header>
+                        <p>Get informations about a given adress</p>
+                        <footer class="align-center">
+                            <a href="adressdata.jsp" class="button alt">Learn More</a>
+                        </footer>
+                    </div>
+                </div>
+            </div>            <div>
+            <div class="box">
+                <div class="image fit">
+                    <img src="ressource/images/pic03.jpg" alt="" />
+                </div>
+                <div class="content">
+                    <header class="align-center">
+                        <p>Bitcoin Visulizer</p>
+                        <h2>Bitcoin price evolution</h2>
+                    </header>
+                    <p>The evolution of bitcoin price via chart</p>
+                    <footer class="align-center">
+                        <a href="bitcoinchart.jsp" class="button alt">Learn More</a>
+                    </footer>
+                </div>
+            </div>
+        </div>
 
         </div>
     </div>

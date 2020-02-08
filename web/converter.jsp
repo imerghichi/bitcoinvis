@@ -10,7 +10,7 @@
 <body>
 
 <!-- Header -->
-<header id="header" class="alt">
+<header id="header" >
     <div class="logo"><a href="home.jsp">Bitcoin <span>Visualizer</span></a></div>
     <a href="#menu">Menu</a>
 </header>
@@ -19,10 +19,12 @@
 <nav id="menu">
     <ul class="links">
         <li><a href="home.jsp">Home</a></li>
-        <li><a href="generic.html">Converter</a></li>
-        <li><a href="#">last 24hours</a></li>
+        <li><a href="converter.jsp">Converter</a></li>
+        <li><a href="Last24h.jsp">last 24hours</a></li>
         <li><a href="adressdata.jsp">Get data for any Adress</a></li>
-        <li><a href="#">About Us</a></li>
+        <li><a href="bitcoinchart.jsp">Bitcoin price evolution</a> </li>
+        <li><a href="latestbock.jsp">Latest block information</a> </li>
+        <li><a href="aboutus.html">About Us</a></li>
 
     </ul>
 </nav>

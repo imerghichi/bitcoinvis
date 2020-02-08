@@ -2,7 +2,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>Bitcoin Data from Adress</title>
+    <title>Bitcoin Converter</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="ressource/assets/css/main.css" />
@@ -32,24 +32,39 @@
     <div class="inner">
         <div class="grid-style">
             <div>
-                <h2 class="title">Bitcoin Data from adress</h2>
+                <h2 class="title">Last 24hours data </h2>
                 <form action="${pageContext.request.contextPath}/converter" method="POST">
-                    <div class="input-group">
-                        <input class="input--style-1" type="text" placeholder="VALUE" name="value">
-                    </div>
                     <br>
                     <div class="col-2">
                         <div class="input-group">
-                            <div class="rs-select2 js-select-simple select--no-search">
-                                <div class="select-dropdown"></div>
-                            </div>
                         </div>
                     </div>
-                    <br>
-                    <div class="p-t-20">
-                        <button class="btn btn--radius btn--green" type="submit">Get Informations</button>
-                    </div><br><br>
+                    <br><br>
                 </form>
+                <div>
+                    <h3 class="title"><h4>
+                        market price USD:<br>
+                        hash rate:<br>
+                        total fees BTC:<br>
+                        number mined BTC:<br>
+                        number tx:<br>
+                        number block mined:<br>
+                        minutes between blocks:<br>
+                        total :<br>
+                        number total of blocks:<br>
+                        estimated transaction volume USD:<br>
+                        blocks size:<br>
+                        miners revenue USD:<br>
+                        next retarget:<br>
+                        difficulty:<br>
+                        estimated sent BTC:<br>
+                        miners revenue BTC:<br>
+                        total sent BTC:<br>
+                        trade volume BTC:<br>
+                      trade volume USD:<br>
+                      </h4></h3>
+                    <div> </div><br>
+                </div>
             </div>
         </div>
     </div>

@@ -1,4 +1,3 @@
-
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -6,6 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="ressource/assets/css/main.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.js"></script>
 </head>
 <body>
 
@@ -28,31 +28,15 @@
 
     </ul>
 </nav>
-<section id="one" class="wrapper style2">
+<br><br>
     <div class="inner">
-        <div class="grid-style">
             <div>
-                <h2 class="title">Bitcoin Data from adress</h2>
-                <form action="${pageContext.request.contextPath}/converter" method="POST">
-                    <div class="input-group">
-                        <input class="input--style-1" type="text" placeholder="VALUE" name="value">
-                    </div>
-                    <br>
-                    <div class="col-2">
-                        <div class="input-group">
-                            <div class="rs-select2 js-select-simple select--no-search">
-                                <div class="select-dropdown"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <br>
-                    <div class="p-t-20">
-                        <button class="btn btn--radius btn--green" type="submit">Get Informations</button>
+                <canvas id="chart1" width="50" height="10"></canvas>
+                <script src="./utils.js"></script>
+                <script src="./chartsConfig.js"></script>
                     </div><br><br>
-                </form>
-            </div>
+
         </div>
-    </div>
     <!-- Footer -->
     <footer id="footer">
         <div class="container">
@@ -76,3 +60,42 @@
 </section>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
