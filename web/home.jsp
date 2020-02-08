@@ -19,7 +19,7 @@
     <ul class="links">
         <li><a href="home.jsp">Home</a></li>
         <li><a href="converter.jsp">Converter</a></li>
-        <li><a href="last.jsp">last 24hours</a></li>
+        <li><a href="#">last 24hours</a></li>
         <li><a href="adressdata.jsp">Get data for any Adress</a></li>
         <li><a href="aboutus.html">About Us</a></li>
 
@@ -104,7 +104,7 @@
                     <div class="content">
                         <header class="align-center">
                             <p>Bitcoin Visulizer</p>
-                            <h2>DLast 24 hours</h2>
+                            <h2>Last 24 hours</h2>
                         </header>
                         <p>Last 2hours Bitcoin related informations</p>
                         <footer class="align-center">

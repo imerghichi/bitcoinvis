@@ -20,7 +20,6 @@ public class ConverterServlet extends HttpServlet {
         int value = Integer.parseInt(req.getParameter("value"));
         String currency = req.getParameter("currency");
         BitcoinConverter bitcoinConverter = new BitcoinConverter(currency,value);
-        printWriter.println(bitcoinConverter.convert());
-        printWriter.close();
+        req.setAttribute("converter",bitcoinConverter.convert());
     }
 }

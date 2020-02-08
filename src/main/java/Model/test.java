@@ -6,7 +6,7 @@ import java.util.List;
 
 public class test {
     public static void main(String[] args)  {
-
+/*
 
         BitcoinAdressData bitcoinAdressData = null;
         try {
@@ -24,7 +24,7 @@ public class test {
         }
 
 
-/*
+
 
         BitcoinStatsService bitcoinStatsService = null;
         try {
@@ -34,19 +34,16 @@ public class test {
         }
         long out = bitcoinStatsService.gethashrate();
     System.out.println(out);
-       /* try {
+        */try {
             BitcoinChartService bitcoinChartService = new BitcoinChartService();
-            List<Integer> list = new ArrayList<Integer>();
-            list = bitcoinChartService.getx();
-            for (int x:
-                 list) {
-                System.out.println(x);
-            }
+          String str = bitcoinChartService.getArrays().toString();
+
+          System.out.println(str);
         } catch (IOException e) {
             e.printStackTrace();
         }
 
-*/
+
     }
 
     }

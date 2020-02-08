@@ -18,11 +18,11 @@
 <!-- Nav -->
 <nav id="menu">
     <ul class="links">
-        <li><a href="index.html">Home</a></li>
+        <li><a href="home.jsp">Home</a></li>
         <li><a href="generic.html">Converter</a></li>
-        <li><a href="elements.html">last 24hours</a></li>
+        <li><a href="#">last 24hours</a></li>
         <li><a href="adressdata.jsp">Get data for any Adress</a></li>
-        <li><a href="elements.html">About Us</a></li>
+        <li><a href="#">About Us</a></li>
 
     </ul>
 </nav>

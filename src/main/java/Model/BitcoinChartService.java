@@ -14,8 +14,8 @@ public class BitcoinChartService extends BitcoinChart {
 
     public BitcoinChartService() throws IOException {
     }
-    ArrayList getx() throws IOException {
-       return (ArrayList) jsonObject.get("value");
+    Object getArrays() throws IOException {
+       return  jsonObject.get("value");
     }
 
 }

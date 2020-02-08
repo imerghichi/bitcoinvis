@@ -9,6 +9,4 @@ import java.net.URL;
 
 public interface Model {
     public String getData() throws IOException;
-    public JSONObject getDataJSON() throws IOException;
-
 }
