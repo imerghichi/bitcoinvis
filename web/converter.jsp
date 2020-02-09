@@ -90,7 +90,7 @@
         </ul>
     </div>
     <div class="copyright">
-        &copy; Imane. All rights reserved.
+        &copy; Imane.
     </div>
 </footer>
 

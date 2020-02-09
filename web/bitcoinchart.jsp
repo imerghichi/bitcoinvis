@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="ressource/assets/css/main.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.js"></script>
 </head>
-<body>
 
 <!-- Header -->
 <header id="header" >
@@ -29,6 +28,7 @@
     </ul>
 </nav>
 <br><br>
+<body>
     <div class="inner">
             <div>
                 <canvas id="chart1" width="50" height="10"></canvas>
@@ -37,6 +37,7 @@
                     </div><br><br>
 
         </div>
+</body>
     <!-- Footer -->
     <footer id="footer">
         <div class="container">
@@ -47,7 +48,7 @@
             </ul>
         </div>
         <div class="copyright">
-            &copy; Imane. All rights reserved.
+            &copy; Imane.
         </div>
     </footer>
 
