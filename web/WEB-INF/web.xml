@@ -8,6 +8,7 @@
         <welcome-file>converter.jsp</welcome-file>
         <welcome-file>adressdata.jsp</welcome-file>
         <welcome-file>stats.jsp</welcome-file>
+        <welcome-file>latestblock.jsp</welcome-file>
     </welcome-file-list>
 
     <servlet>
@@ -42,5 +43,14 @@
     <servlet-mapping>
         <servlet-name>BitcoinStatsServlet</servlet-name>
         <url-pattern>/stats</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>BitcoinLatestBlockServlet</servlet-name>
+        <servlet-class>Controllers.BitcoinLatestBlockServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BitcoinLatestBlockServlet</servlet-name>
+        <url-pattern>/latestblock</url-pattern>
     </servlet-mapping>
 </web-app>
