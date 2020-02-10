@@ -23,7 +23,7 @@ public class BitcoinStatsServlet extends HttpServlet {
         printWriter.println("miner revenue: "+bitcoinStatsService.getminers_revenue_btc());
         printWriter.println("total number of blocks"+bitcoinStatsService.getn_blocks_total());
         printWriter.println("minutes between blocks"+bitcoinStatsService.getminutes_btween_blocks());
-        printWriter.println("total fees (BTC)"+bitcoinStatsService.get_total_fees_btc());
+        printWriter.println("total fees BTC"+bitcoinStatsService.get_total_fees_btc());
         req.setAttribute("total", bitcoinStatsService.get_total_fees_btc());
         printWriter.close();
     }

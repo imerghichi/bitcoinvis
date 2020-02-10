@@ -33,7 +33,7 @@
         <div class="grid-style">
             <div>
                 <h2 class="title">Bitcoin Data from adress</h2>
-                <form action="${pageContext.request.contextPath}/converter" method="POST">
+                <form action="${pageContext.request.contextPath}/adressdata" method="POST">
                     <div class="input-group">
                         <input class="input--style-1" type="text" placeholder="VALUE" name="value">
                     </div>

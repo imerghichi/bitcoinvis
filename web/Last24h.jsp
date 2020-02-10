@@ -45,12 +45,12 @@
                     <h3 class="title"><h4>
                         market price USD:<br>
                         hash rate:<br>
-                        total fees BTC:<br>
+                        total fees BTC:<br><%=request.getAttribute("total fees BTC")%>
                         number mined BTC:<br>
                         number tx:<br>
                         number block mined:<br>
                         minutes between blocks:<br>
-                        total :<br>
+                        total :<br><%=request.getAttribute("total BC")%>
                         number total of blocks:<br>
                         estimated transaction volume USD:<br>
                         blocks size:<br>
